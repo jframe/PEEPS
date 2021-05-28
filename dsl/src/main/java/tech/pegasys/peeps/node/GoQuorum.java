@@ -135,6 +135,7 @@ public class GoQuorum extends Web3Provider {
         "--gasprice",
         "0",
         "--debug",
+        "--nodiscover",
         "--istanbul.blockperiod",
         Integer.toString(blockPeriodSeconds),
         "--istanbul.requesttimeout",
