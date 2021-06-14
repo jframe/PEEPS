@@ -19,7 +19,7 @@ public class BftConfig {
 
   public static final int DEFAULT_BLOCK_PERIOD_SECONDS = 2;
   public static final int DEFAULT_EPOCH_LENGTH = 30000;
-  public static final int DEFAULT_REQUEST_TIMEOUT_SECONDS = 5;
+  public static final int DEFAULT_REQUEST_TIMEOUT_SECONDS = 10;
 
   private final int blockPeriodSeconds;
   private final int epochLength;
